@@ -4,12 +4,23 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat&family=Yanone+Kaffeesatz&display=swap');
+/* 
+font-family: 'Dancing Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif; 
+*/
+
 .parentCard {
     display: flex;
     align-items: center;
     justify-content: center;
 
     margin: 10% 0;
+}
+
+.mainCard:hover {
+    background: lightgoldenrodyellow;
 }
 
 .mainCard {
@@ -26,9 +37,20 @@
 
 .profileCard .cardTitle {
     color: red;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 30px;
 }
+
 .profileCard .cardDesignation {
     color: skyblue;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.contactCard {
+    /* border: 2px solid green; */
+    
 }
 
 .contactCard .location {
@@ -44,4 +66,20 @@
 .contactCard .email {
     color: red;
     padding: 5px;
+    
+}
+
+.location,
+.mobile,
+.email {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 2px;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon {
+    font-size: 30px;
 }
