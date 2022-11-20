@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parentCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 10% 0;
+}
+
+.mainCard {
+    width: 350px;
+    height: 200px;
+    border: 2px solid lightskyblue;
+    background: lightcyan;
+    border-radius: 5px;
+}
+
+.mainCard .profileCard {
+    padding: 5px;
+}
+
+.profileCard .cardTitle {
+    color: red;
+}
+.profileCard .cardDesignation {
+    color: skyblue;
+}
+
+.contactCard .location {
+    color: red;
+    padding: 5px;
+}
+
+.contactCard .mobile {
+    color: red;
+    padding: 5px;
+}
+
+.contactCard .email {
+    color: red;
+    padding: 5px;
+}

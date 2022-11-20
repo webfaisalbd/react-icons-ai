@@ -1,12 +1,7 @@
-import './style.css'
-
-function App() {
-  return (
-    <div className='parentCard'>
-      <div className="mainCard">
+<div className="mainCard">
         <div className="profileCard">
-          <h2 className="cardTitle">Faisal Ahmed</h2>
-          <h4 className="cardDesignation">Frontend Web Developer</h4>
+          <p className="cardTitle">Faisal Ahmed</p>
+          <p className="cardDesignation">Frontend Web Developer</p>
         </div>
         <div className="contactCard">
           <div className="location">
@@ -23,8 +18,3 @@ function App() {
           </div>
         </div>
       </div>
-    </div>
-  );
-}
-
-export default App;
