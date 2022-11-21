@@ -19,11 +19,11 @@ function App() {
             </div>
             <div className="mobile">
               <p>+8801685477114</p>
-              <p> <FaPhoneSquareAlt className='icon' /> </p>
+              <p> <a href="http://wa.me/8801685477114" target="_blank" rel="noopener noreferrer"> <FaPhoneSquareAlt className='icon' /> </a> </p>
             </div>
             <div className="email">
               <p>web.faisal.bd@gmail.com</p>
-              <p> <HiMail className='icon' /> </p>
+              <p> <a href="mailto:web.faisal.bd@gmail.com"> <HiMail className='icon' /> </a> </p>
             </div>
           </div>
         </div>
