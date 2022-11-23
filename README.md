@@ -1,7 +1,9 @@
 # React Icons
 
+### Link: https://webfaisalbd.github.io/react-icons-ai/
+
 <p align='center'>
-  <img src="./singleCard.PNG" width="500" title="Card">
+  <img src="./outputUI.PNG" width="500" title="Card">
 </p>
 
 ---
@@ -76,7 +78,7 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .profileCard .cardTitle {
-    color: red;
+    color: blue;
     font-family: 'Dancing Script', cursive;
     font-weight: 700;
     font-size: 30px;
