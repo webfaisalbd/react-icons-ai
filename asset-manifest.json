@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-icons-ai/static/css/main.833d2820.css",
+    "main.js": "/react-icons-ai/static/js/main.ebb12f65.js",
+    "index.html": "/react-icons-ai/index.html",
+    "main.833d2820.css.map": "/react-icons-ai/static/css/main.833d2820.css.map",
+    "main.ebb12f65.js.map": "/react-icons-ai/static/js/main.ebb12f65.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.833d2820.css",
+    "static/js/main.ebb12f65.js"
+  ]
+}
